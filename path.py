@@ -22,3 +22,8 @@ for file in files:
     
     elif splited_file[-1] in videos:
         os.system("mv {} /home/annie/Videos".format(file))
+    
+    else:
+        pass 
+
+
