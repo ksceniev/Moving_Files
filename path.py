@@ -5,7 +5,7 @@ pictures = ['png', 'jpg', 'jpeg']
 music = ['mp3', 'mp4', 'wav']
 videos =  ['webm']
 
-#os.chdir('/home/annie/Downloads')
+os.chdir('/home/annie/Downloads')
 files = os.listdir('/home/annie/Downloads')
 
 for file in files:
